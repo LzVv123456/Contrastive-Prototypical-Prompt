@@ -93,7 +93,7 @@ def get_args_parser():
     parser.add_argument("--checkpoint_key", default="teacher", type=str, help='Key to use in the checkpoint (example: "teacher")')
 
     # Misc ---------------------------------------------------------------------------------------
-    parser.add_argument('--data_path', default='../Datasets', type=str, help='Please specify path to the folder where data is saved.')
+    parser.add_argument('--data_path', default='./data', type=str, help='Please specify path to the folder where data is saved.')
     parser.add_argument('--output_dir', default='./exps_results', type=str, help='Path to save logs and checkpoints.')
     parser.add_argument('--infer_path', default='', type=str, help='path for inferring specific exp')
     parser.add_argument('--exp_name', default='', type=str, help='experiment name.')
