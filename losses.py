@@ -186,10 +186,6 @@ class ProtoConLoss(nn.Module):
         else:
             n_mask = torch.ones_like(mask) - mask
 
-        # mask off pairs among prototypes
-        p_mask[sample_num+1: sample_num+1:] = 0
-        n_mask[sample_num+1: sample_num+1:] = 0
-
         exp_logits_den = torch.exp(logits_den) * n_mask
         log_prob = logits_num - torch.log(exp_logits_den.sum(1, keepdim=True) + self.eps)
         # compute mean of log-likelihood over positive
