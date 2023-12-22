@@ -70,7 +70,7 @@ If you find our research or this repository useful, please consider citing our w
 
 ```bibtex
 @misc{li2023steering,
-      title={Steering Prototype with Prompt-tuning for Rehearsal-free Continual Learning}, 
+      title={Steering Prototypes with Prompt-tuning for Rehearsal-free Continual Learning}, 
       author={Zhuowei Li and Long Zhao and Zizhao Zhang and Han Zhang and Di Liu and Ting Liu and Dimitris N. Metaxas},
       year={2023},
       eprint={2303.09447},
