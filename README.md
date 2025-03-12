@@ -60,9 +60,9 @@ To ensure reproducibility and smooth execution of the code, we recommend setting
     ```
 3. How to run other settings:
    
-    Please refer to the "main.py" for the detailed arguments.
-    
-
+   Please refer to the "main.py" for the detailed arguments.
+   
+   For the pretrained weights of MAE, please use the finetuned verison here: https://dl.fbaipublicfiles.com/mae/finetune/mae_finetuned_vit_base.pth
 
 ## 5. How to Cite the Paper
 
